@@ -4,9 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        section {
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 8px;
+            max-width: 800px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: square;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Webpage</h1>
-    <p>This is my personal site hosted on GitHub Pages.</p>
+
+    <header>
+        <h1>Welcome to My Webpage</h1>
+        <p>A space to showcase my projects and journey</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>Hi! I'm Murad, a Master's student in Mechanical Engineering and Data Science at the University of Washington, Seattle.  
+        I am passionate about robotics, AI, and autonomous systems, and I love working on projects that push the boundaries of technology.</p>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <p><strong>University of Washington, Seattle</strong> – M.S. in Mechanical Engineering & Data Science</p>
+        <p><strong>University of Arizona</strong> – M.S. in Electrical and Computer Engineering</p>
+        <p><strong>Ahsanullah University of Science & Technology</strong> – B.S. in Electrical Engineering</p>
+    </section>
+
+    <section>
+        <h2>My Projects</h2>
+        <ul>
+            <li><strong>GPS-IDS:</strong> An anomaly-based GPS spoofing detection framework for autonomous vehicles.</li>
+            <li><strong>Leo: The Pet Cat Robot:</strong> A semi-autonomous robotic pet inspired by Sony Aibo.</li>
+            <li><strong>Weevil Detection System:</strong> A machine learning-based approach for agricultural pest detection.</li>
+            <li><strong>Reinforcement Learning for Robot Navigation:</strong> Developing sensor-independent navigation methods.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Skills & Interests</h2>
+        <p>Some of the technologies and areas I work with:</p>
+        <ul>
+            <li>Machine Learning & Deep Learning</li>
+            <li>Robotics & Control Systems</li>
+            <li>Computer Vision & Sensor Fusion</li>
+            <li>Embedded Systems & Hardware Design</li>
+            <li>Python, C++, MATLAB</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>📧 Email: <a href="mailto:murad@example.com">murad@example.com</a></p>
+        <p>🔗 GitHub: <a href="https://github.com/your-username" target="_blank">github.com/your-username</a></p>
+        <p>🔗 Website: <a href="https://mehrababrar.com/" target="_blank">mehrababrar.com</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Murad | Built with 💻 and ☕</p>
+    </footer>
+
 </body>
 </html>
+
